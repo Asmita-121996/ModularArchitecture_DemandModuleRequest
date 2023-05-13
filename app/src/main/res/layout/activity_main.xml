@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/modularTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Modular Architecture" />
+
+    <Button android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonClick"
+        android:text="Click to Download News Module" />
+
+    <Button android:layout_width="wrap_content"
+        android:text="Open News Module"
+        android:visibility="gone"
+        android:id="@+id/buttonOpenNewsModule"
+        android:layout_height="wrap_content" />
+
+    <Button android:layout_width="wrap_content"
+        android:text="Open Custom Module"
+        android:visibility="gone"
+        android:id="@+id/buttonCustomModule"
+        android:layout_height="wrap_content" />
+
+    <Button android:layout_width="wrap_content"
+        android:text="Delete All Module"
+        android:visibility="gone"
+        android:id="@+id/buttonDeleteNewsModule"
+        android:layout_height="wrap_content"
+
+        />
+</LinearLayout>
