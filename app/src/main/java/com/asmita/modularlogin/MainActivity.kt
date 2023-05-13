@@ -46,7 +46,7 @@ class MainActivity : AppCompatActivity() {
         }
 
         buttonClick.setOnClickListener {
-            if (!isDynamicFeatureDownloaded(onDemandFeature)) {
+            if (!isDynamicFeatureDownloaded(onDemandFeature) || !isDynamicFeatureDownloaded(customFeature)) {
                 downloadFeature()
             } else {
                 buttonOpenNewsModule.visibility = View.VISIBLE
